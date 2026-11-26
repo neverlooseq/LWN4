@@ -99,16 +99,16 @@ int main() {
         cout << "Ошибка открытия output.txt";
         return 0;
     }
-    fout << "Исходные кредиты"<< endl;
+    fout << "Исходные кредиты\n"<< endl;
     for (int i = 0; i < credits_deque.size();i++) {
         fout << credits_deque[i]<< endl;
     }
-    fout << "Отсортированные кредиты" << endl;
+    fout << "\nОтсортированные кредиты\n" << endl;
     for (int i = 0; i < credits.size();i++) {
         fout << credits[i] << endl;
 
     }
-    fout << "Скопированные кредиты" << endl;
+    fout <<"\nСкопированные кредиты\n" << endl;
     for (int i = 0; i < credits_deque.size(); i++) {
         fout << credits_deque[i] << endl;
     }
